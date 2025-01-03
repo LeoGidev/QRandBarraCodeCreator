@@ -8,3 +8,6 @@ from reportlab.lib.pagesizes import letter
 qr_data = "https://www.example.com"
 qr = qrcode.make(qr_data)
 qr.save("qr_code.png")
+
+# Crear un código de barras
+barcode_data = "123456789012"
