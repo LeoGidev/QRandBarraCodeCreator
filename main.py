@@ -12,3 +12,4 @@ qr.save("qr_code.png")
 # Crear un código de barras
 barcode_data = "123456789012"
 barcode = Code128(barcode_data, writer=ImageWriter())
+barcode.save("barcode")
