@@ -24,3 +24,6 @@ pdf.drawImage("qr_code.png", 50, height - 150, width=100, height=100)
 
 # Agregar el código de barras al PDF
 pdf.drawImage("barcode.png", 200, height - 150, width=200, height=100)
+
+# Agregar texto al PDF
+pdf.setFont("Helvetica", 12)
