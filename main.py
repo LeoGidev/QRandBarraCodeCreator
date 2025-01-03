@@ -16,3 +16,4 @@ barcode.save("barcode")
 
 # Crear un PDF con ReportLab
 pdf_file = "output.pdf"
+pdf = canvas.Canvas(pdf_file, pagesize=letter)
