@@ -18,3 +18,6 @@ barcode.save("barcode")
 pdf_file = "output.pdf"
 pdf = canvas.Canvas(pdf_file, pagesize=letter)
 width, height = letter
+
+# Agregar el código QR al PDF
+pdf.drawImage("qr_code.png", 50, height - 150, width=100, height=100)
