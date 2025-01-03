@@ -32,3 +32,5 @@ pdf.drawString(200, height - 170, "Código de barras para: " + barcode_data)
 
 # Guardar el PDF
 pdf.save()
+
+print(f"PDF generado: {pdf_file}")
