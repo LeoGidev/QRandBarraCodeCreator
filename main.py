@@ -21,3 +21,5 @@ width, height = letter
 
 # Agregar el código QR al PDF
 pdf.drawImage("qr_code.png", 50, height - 150, width=100, height=100)
+
+# Agregar el código de barras al PDF
