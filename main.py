@@ -13,3 +13,6 @@ qr.save("qr_code.png")
 barcode_data = "123456789012"
 barcode = Code128(barcode_data, writer=ImageWriter())
 barcode.save("barcode")
+
+# Crear un PDF con ReportLab
+pdf_file = "output.pdf"
