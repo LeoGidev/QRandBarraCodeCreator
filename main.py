@@ -29,3 +29,6 @@ pdf.drawImage("barcode.png", 200, height - 150, width=200, height=100)
 pdf.setFont("Helvetica", 12)
 pdf.drawString(50, height - 170, "Código QR para: " + qr_data)
 pdf.drawString(200, height - 170, "Código de barras para: " + barcode_data)
+
+# Guardar el PDF
+pdf.save()
